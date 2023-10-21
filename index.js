@@ -5,7 +5,7 @@ const { crawlPageWithLinks } = require('./modulos/conexionurls');
 
 
 // Inicializacion de las variables
-const initialUrl = 'https://www.unisangil.edu.co/'; // Reemplaza con tu URL inicial.
+const initialUrl = 'http://testphp.vulnweb.com/'; // Reemplaza con tu URL inicial.
 const depth = 2;
 const visitedLinks = new Set(); // Conjunto para mantener un registro de las URLs visitadas.
 const originDomain = new URL(initialUrl).hostname; // Obtiene el dominio de la URL de origen.
