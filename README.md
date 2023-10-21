@@ -11,7 +11,6 @@ este proyecto hace uso de algunas librerias de node_modules antes de poder utili
 
 
 git clone https://github.com/3p1c0s3nd/CrawlerUrls.git\n
-
-cd CrawlerUrls
-npm install
-node index.js
+cd CrawlerUrls\n
+npm install\n
+node index.js\n
